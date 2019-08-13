@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+						<span class="sr-only">Desplegar / Ocultar Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">JOHN VARGAS</a>
+				</div>
+				<!-- Inicia Menu -->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="http://localhost:8081/PROYECTO2/web/Sitio-web/">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Categorias <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="http://localhost:8081/PROYECTO2/web/Sitio-web/calculadora.index.html">Calculadora</a></li>
+								<li class="divider"></li>
+								<li><a href="http://localhost:8081/PROYECTO2/web/Sitio-web/tutorial.index.html">Tutorial</a></li>
+																
+							</ul>
+						</li>
+						
+						<li><a href="http://localhost:8081/PROYECTO2/web/Sitio-web/contacto.html">Contacto</a></li>
+					</ul>
+
+					<form action="" class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="buscar">
+						</div>
+						<button type="submit" class="btn btn-primary">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="jumbotron">
+		<div class="container">
+			<h1>PLATAFORMA DE TUTORIALES</h1>
+			<p>Blog web por John vargas</p>
+		</div>
+	</section>
+
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-9">
+				<div class="miga-de-pan">
+					<ol class="breadcrumb">
+						<li><a href="http://localhost:8081/PROYECTO2/web/Sitio-web/">Inicio</a></li>
+						<li><a href="#">Categorias</a></li>
+						<li class="active">Diseño Web</li>
+					</ol>
+				</div>
+				
+			</section>
+<br>
+<br>
+<div class="calculadora">
+	<div class="pantalla">
+		<div id="resultado">
+		</div>
+	</div>
+	<div class="teclas">
+		<div class="numeros">
+			<div>
+		        <button id="n1">1</button>
+		        <button id="n2">2</button>
+		        <button id="n3">3</button>
+	    	</div>
+			<div>
+		        <button id="n4">4</button>
+		        <button id="n5">5</button>
+		        <button id="n6">6</button>
+		    </div>
+		    <div>
+		        <button id="n7">7</button>
+		        <button id="n8">8</button>
+		        <button id="n9">9</button>
+		    </div>
+		    <div>
+		    	<button id="reset">C</button>
+		        <button id="n0">0</button>
+		        <button id=".">.</button>
+		    </div>
+	    </div>
+		<div class="op">
+		    <button id="s">+</button>
+		    <button id="r">-</button>
+		    <button id="d">÷</button>
+		    <button id="m">x</button>
+	    </div>
+	</div>
+	<div class="sr">
+		<button id="sr">=</button>
+	</div>
+</div>
+</section>
+<br>
+<br>
+<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p>John vargas - tutoriales</p>
+				</div>
+				<div class="col-xs-6">
+					<ul class="list-inline text-right">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
